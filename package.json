@@ -1,0 +1,14 @@
+{
+  "name": "app_crypto_electron",
+  "version": "1.0.0",
+  "description": "Cotizador de cryptomonedas",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Salvador Porras",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.0.0"
+  }
+}

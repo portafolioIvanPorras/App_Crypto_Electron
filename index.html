@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto App</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="spinner.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Crypto App</h1>
+    <div class="card">
+        <form id="formulario">
+            <div class="row">
+                <label>Elige tu moneda</label>
+                <select name="moneda" id="moneda" class="u-full-width">
+                    <option value="" selected disabled>Elige tu moneda</option>
+                    <option value="GTQ">Quetzal</option>
+                    <option value="USD">Dolar USA</option>
+                    <option value="MXN">Peso Mexicano</option>
+                    <option value="EUR">Euro</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="">Elige tu criptomoneda</label>
+                <select class="u-full-width" id="criptomonedas" name="criptomoneda">
+                    <option value="" selected disabled>Elige tu criptomoneda</option>
+            </div>
+            <input class="button-primary u-full-width" type="submit" value="Cotizar" />
+
+            <div id="resultado" class="resultado"></div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

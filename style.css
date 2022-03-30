@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans&family=Raleway:wght@300;400;700;900&family=Roboto:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  /* background-image: url('background-image.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+  background-image: radial-gradient(
+    circle at -11.24% 14.64%,
+    #ada344 0,
+    #9c852a 5.56%,
+    #ddae3c 11.11%,
+    #e5a439 16.67%,
+    #ec9937 22.22%,
+    #f28d37 27.78%,
+    #f67f39 33.33%,
+    #f96f3c 38.89%,
+    #fa5c41 44.44%,
+    #f94646 50%,
+    #f7294d 55.56%,
+    #f30056 61.11%,
+    #ee0061 66.67%,
+    #e8006e 72.22%,
+    #df007c 77.78%,
+    #d4008b 83.33%,
+    #c6009b 88.89%,
+    #b600ab 94.44%,
+    #a100bb 100%
+  );
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.384);
+  padding: 3em;
+  border-radius: 25px;
+  padding-bottom: 2.5rem;
+  max-width: 85%;
+}
+
+.error {
+  text-align: center;
+}
+
+span,
+.precio {
+  font-size: 1.7rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.precio {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+/*Spinner*/
